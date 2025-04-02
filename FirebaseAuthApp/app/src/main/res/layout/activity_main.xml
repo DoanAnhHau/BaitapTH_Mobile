@@ -1,0 +1,85 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#f5f5f5"
+    android:gravity="center">
+
+    <!-- Title or App Name -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase Authentication"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_border"/>
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edit_text_border"/>
+
+    <!-- Register Button -->
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:text="Đăng ký" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Show Data Button -->
+    <Button
+        android:id="@+id/showDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị dữ liệu"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp" />
+
+    <!-- TextView to show data -->
+    <TextView
+        android:id="@+id/displayDataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu người dùng sẽ hiển thị ở đây"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:visibility="visible"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

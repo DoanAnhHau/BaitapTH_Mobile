@@ -1,0 +1,8 @@
+<!-- res/drawable/edit_text_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF"/> <!-- Màu nền trắng -->
+    <corners android:radius="12dp"/> <!-- Góc bo tròn -->
+    <stroke
+        android:color="#3F51B5"/>
+
+</shape>
